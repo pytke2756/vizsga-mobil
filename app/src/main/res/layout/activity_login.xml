@@ -80,6 +80,7 @@
                 android:textColor="@color/white"
                 android:layout_width="155dp"
                 android:layout_height="wrap_content"
+                android:textSize="13dp"
                 android:text="Bejelentkezés" />
 
             <com.google.android.material.button.MaterialButton
