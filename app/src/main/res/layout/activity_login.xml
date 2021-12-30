@@ -21,8 +21,8 @@
             android:layout_marginBottom="25sp"
             android:hint="Email/Felhasználónév"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            app:boxStrokeColor="#3751FE"
-            app:hintTextColor="#2D3748">
+            app:boxStrokeColor="@color/main_blue"
+            app:hintTextColor="@color/input_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -38,8 +38,8 @@
             android:hint="Jelszó"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             app:endIconMode="password_toggle"
-            app:boxStrokeColor="#3751FE"
-            app:hintTextColor="#2D3748">
+            app:boxStrokeColor="@color/main_blue"
+            app:hintTextColor="@color/input_hint">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -58,7 +58,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Emlékezz rám"
-                app:buttonTint="#3751FE"/>
+                app:buttonTint="@color/main_blue"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
@@ -76,23 +76,24 @@
 
             <com.google.android.material.button.MaterialButton
                 app:cornerRadius="10dp"
-                app:backgroundTint="#3751FE"
+                app:backgroundTint="@color/main_blue"
                 android:textColor="@color/white"
                 android:layout_width="155dp"
                 android:layout_height="wrap_content"
                 android:textSize="13dp"
-                android:text="Bejelentkezés" />
+                android:text="Bejelentkezés"/>
 
             <com.google.android.material.button.MaterialButton
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                app:strokeColor="#3751FE"
-                app:rippleColor="#3751FE"
+                app:strokeColor="@color/main_blue"
+                app:rippleColor="@color/main_blue"
                 app:cornerRadius="10dp"
-                android:textColor="#3751FE"
+                android:textColor="@color/main_blue"
                 android:layout_width="155dp"
                 android:layout_height="wrap_content"
                 android:text="Regisztráció"
-                android:layout_marginBottom="10sp"/>
+                android:layout_marginBottom="10sp"
+                android:id="@+id/reg_btn"/>
         </LinearLayout>
 
     </LinearLayout>
