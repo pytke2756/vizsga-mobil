@@ -119,19 +119,4 @@
          </com.google.android.material.textfield.TextInputLayout>
     </androidx.appcompat.widget.LinearLayoutCompat>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:gravity="center"
-        android:layout_gravity="bottom">
-
-        <com.google.android.material.button.MaterialButton
-            app:cornerRadius="10dp"
-            app:backgroundTint="@color/main_blue"
-            android:textColor="@color/white"
-            android:layout_width="155dp"
-            android:layout_height="wrap_content"
-            android:text="Következő" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
 </FrameLayout>
